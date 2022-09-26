@@ -34,6 +34,7 @@ export const LOCAL_NAME = {
   SELECT_MULTIPLE: 'select-multiple',
   SELECT_SINGLE: 'select-single',
   SPINNER: 'spinner',
+  STORY: 'story',
   STYLE: 'style',
   STYLES: 'styles',
   SWITCH: 'switch',

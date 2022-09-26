@@ -1,0 +1,75 @@
+<doc xmlns="https://hyperview.org/hyperview">
+  <screen>
+    <styles>
+      <style
+        id="Header"
+        alignItems="center"
+        backgroundColor="white"
+        borderBottomColor="#eee"
+        borderBottomWidth="1"
+        flexDirection="row"
+        paddingLeft="24"
+        paddingRight="24"
+        paddingBottom="16"
+      />
+      <style
+        id="Header__Back"
+        color="blue"
+        fontSize="16"
+        fontWeight="600"
+        paddingRight="16"
+      />
+      <style id="Header__Title" color="black" fontSize="24" fontWeight="600" />
+      <style id="Body" backgroundColor="white" flex="1" />
+      <style
+        id="Description"
+        fontSize="16"
+        fontWeight="normal"
+        margin="24"
+        marginBottom="0"
+      />
+      <style id="FormGroup" flex="1" margin="24" />
+      <style
+        id="Label"
+        borderColor="#4E4D4D"
+        fontSize="16"
+        fontWeight="bold"
+        lineHeight="24"
+        marginBottom="8"
+      />
+      <style
+        id="Input"
+        borderBottomColor="#E1E1E1"
+        borderBottomWidth="1"
+        borderColor="#4E4D4D"
+        fontSize="16"
+        fontWeight="normal"
+        paddingBottom="8"
+        paddingTop="8"
+        marginBottom="24"
+      />
+      <style id="Footer" backgroundColor="#63CB76" width="100%" padding="24" />
+      <style
+        id="Footer__Description"
+        color="white"
+        fontSize="24"
+        fontWeight="bold"
+        textAlign="center"
+      />
+    </styles>
+    <body style="Body" safe-area="true">
+      <header style="Header">
+        <text action="back" href="#" style="Header__Back">Back</text>
+        <text style="Header__Title">Story View</text>
+      </header>
+
+      <text style="Description">
+        Building a story view for it
+      </text>
+
+      <view id="Form" style="FormGroup" scroll="true">
+            <story source="/ui_elements/image.jpg" style="img" />
+      </view>
+    </body>
+  </screen>
+</doc>
